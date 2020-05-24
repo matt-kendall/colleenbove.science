@@ -20,11 +20,10 @@
 </head>
 
 <body>
-
   <div class="blog-masthead">
     <div class="container">
       <nav class="blog-nav">
-        <?php wp_list_pages( '&title_li=' ); ?>
+        <?php wp_list_pages( 'sort_order=asc&title_li=&sort_column=menu_order' ); ?>
       </nav>
     </div>
   </div>
